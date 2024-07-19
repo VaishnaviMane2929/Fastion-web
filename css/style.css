@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+/* common styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  border: none;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    color: black;
+    font-family: "Sevillana", cursive;
+    font-weight: 500;
+}
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.navbar-brand:hover{
+    color: rgb(38, 35, 231);
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:black ;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgbrgb(38, 35, 231);
+}
+.faa{
+height: 2.5rem;
+width: 40px;
+}
+.search{
+    height:40px ;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right:-35px ;
+    border: 2px solid rgb(246, 67, 67);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(246, 67, 67);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.main{
+    background: url("https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg"); 
+    background-size: cover;
+    height: 100vh;
+    background-position: 50%;
+    width: 100%;
+ 
+ }
+ .main p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    /* padding-top: 10vh; */
+ }
+ .main h1{
+     font-size: 5rem;
+     font-weight: 800;
+    color: black;
+ }
+ .btn2{
+     height:45px ;
+     width: 35%;
+     border: none;
+     outline:none;
+     color: black;
+     font-weight:700;
+     border-radius:none;
+     transition: all 0.4s;
+     background-color:rgb(246, 67, 67) ;
+     cursor: pointer;
+ 
+ }
+ .btn2:hover:hover{
+    background-color: transparent;
+    border: 1px solid rgb(246, 67, 67);
+    color: rgb(246, 67, 67);
+    transition: all 0.4s;
+ }
+ .btnc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%) ;
+    height: 53px;
+    width: 40%;
+    color: black;
+    border: none;
+    outline: none;
+    background: white;
+    cursor: all 0.4s;
+ }
+ .btnc:hover{
+    background: rgb(238, 11, 105);
+    color: white;
+    transition: all 0.4s;
+
+ }
+ .zoom-n-rotate{
+    border-radius: 0;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+
+ }
+ .zoom-n-rotate img{
+    transition: transform .5s ease-in-out;
+ }
+ .zoom-n-rotate:hover img{
+    transform: scale(1.5);
+ }
+ .product h1{
+    font-weight: 800;
+    font: size 2.6rem; ;
+ }
+ .product{
+    background: rgb(246, 243, 243);
+
+ }
+ .discount{
+    height: 50px;
+    width: 50px;
+    background: rgb(238, 11, 105);
+    border-radius: 50%;
+    padding: 12px 5px;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+
+ }
+ .control a{
+   color: red;
+   font-size: 1.5rem;
+   font-weight: 700;
+   padding-left: 2px;
+   cursor: pointer;
+ }
+ .circle1{
+  height: 70px;
+  width: 70px;
+  background: white;
+  color: black;
+  border-radius: 50%;
+  padding: 20px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+  opacity: 0;
+ }
+ .mix:hover .circle1{
+   transition: all 0.4s;
+   opacity: 1;
+ }
+ .circle1:hover{
+   background: black;
+   color: white;
+   transition: all 0.4s;
+ }
+ .iconic p{
+   text-align: justify;
+   font-family:'prompt',sans-serif ;
+
+ }
+ .icon{
+   color:rgb(238, 11, 105) ;
+   font-size: 2.5rem;
+ }
+ .news{
+   background-color: black;
+   color: #fff;
+}
+.btn2{
+   height: 45px;
+   width: 100px;
+   background: #fff;
+   margin-left: -10px;
+   border: 2px solid #fff;
+   font-weight: 600;
+}
+.news input{
+   height: 45px;
+   width: 55%;
+   border: none;
+   outline: none;
+   background: black;
+   color: #fff;
+   margin-top: 20px;
+   font-weight: 600;
+
+}
+.news::placeholder{
+   color: #fff;
+
+}
+.news p{
+   margin: 0;
+}
+.fab{
+font-size: 2.5rem;
+cursor: pointer;
+padding-right: 5px;   
+}
+.faa{
+   font-size: 1.9rem;
+}
+
